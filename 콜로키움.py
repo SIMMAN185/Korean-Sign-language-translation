@@ -1419,7 +1419,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
 list_as_string = " ".join(map(str,sentence))
 print(sentence)
 
-client = OpenAI(api_key="sk-proj-89VeNxZj9PnGK1pd2Y1TT3BlbkFJuBxmprFaTJEWX7Ubdph3")
+client = OpenAI(api_key="yourapikey")
 
 response = client.chat.completions.create(
     model="gpt-3.5-turbo",
